@@ -1,0 +1,21 @@
+@startuml
+actor Vendedor
+actor Cliente
+
+usecase "Cadastrar Produto" as UC1
+usecase "Organizar Categoria" as UC2
+usecase "Transação Monetária" as UC3
+usecase "Emitir Nota Fiscal em PDF" as UC4
+usecase "Consultar Histórico de Compras" as UC5
+
+Vendedor --> UC1 : "Adiciona produtos"
+Vendedor --> UC2 : "Organiza categorias"
+Vendedor --> UC3 : "Inicia transação"
+Vendedor --> UC4 : "Gera nota fiscal"
+Vendedor --> UC5 : "Consulta histórico"
+
+Cliente --> UC3 : "Realiza pagamento"
+
+UC3 .> UC4 : <<include>>
+
+@enduml

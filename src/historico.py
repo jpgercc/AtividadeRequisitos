@@ -2,7 +2,7 @@ import customtkinter as ctk
 import sqlite3
 from tkinter import messagebox
 
-class HistoricoDeVendas(ctk.CTk):
+class historico(ctk.CTk):
     def __init__(self):
         super().__init__()
         ctk.set_appearance_mode("system")  # Modos: "dark", "light", "system"
@@ -89,5 +89,5 @@ class HistoricoDeVendas(ctk.CTk):
 
 
 if __name__ == "__main__":
-    app = HistoricoDeVendas()
+    app = historico()
     app.mainloop()
