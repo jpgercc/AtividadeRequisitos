@@ -1,4 +1,5 @@
 <h1>Mini ERPs</h1>
+![Jf93yK3](https://github.com/user-attachments/assets/bfe6ab02-dce6-4fb1-870b-935232a28cb8)
 <p>
 Instale todas as bibliotecas:
   
@@ -13,6 +14,4 @@ Vamos imaginar que precisamos de um software que nos ajude a gerenciar uma lista
 2 - Visualizar os produtos p/ saber quantos tem na lista
 3- Saber o valor total da soma de toda unidade dos produtos
 </p>
-
-![Jf93yK3](https://github.com/user-attachments/assets/bfe6ab02-dce6-4fb1-870b-935232a28cb8)
 
