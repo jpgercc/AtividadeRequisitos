@@ -1,7 +1,7 @@
-# AtividadeRequisitos
-<h1>Mini ERPs<h1>
+<h1>Mini ERPs</h1>
 <p>
-
+Instale todas as bibliotecas:
+  
 `pip install -r requirements.txt`
 
 </p>
