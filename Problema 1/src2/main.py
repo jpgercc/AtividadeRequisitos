@@ -1,9 +1,10 @@
 import tkinter as tk
-from gui import TreinoNadadorGUI
+from gui import GUI
 from timerer import Timerer
-
-if __name__ == "__main__":
-    root = tk.Tk()
+#q: EXPLIQUE O NOME E O FORMADO DE "if __name__ == "__main__":"
+#r: O nome da função é __main__ e o formato é um if statement que verifica se o módulo está sendo executado como um programa principal. Se o módulo for importado, o bloco de código dentro do if statement não será executado.
+if __name__ == "__main__": 
     timer = Timerer()
-    app = TreinoNadadorGUI(root, timer)
+    root = tk.Tk()
+    app = GUI(root, timer)
     root.mainloop()
