@@ -8,7 +8,8 @@
 </p>
 
 
-<h2><a href="https://github.com/jpgercc/AtividadeRequisitos/blob/main/caso_de_uso.uml" ">Diagrama de Classes</a></h2>
+<h2><a href="https://github.com/jpgercc/AtividadeRequisitos/blob/main/Problema%201/diagrama_classes.uml" ">Diagrama de Classes</a></h2>
 
+![image](https://github.com/user-attachments/assets/2627d778-c2e7-4e42-a2ff-036bcc4ce60f)
 
 
