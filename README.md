@@ -1,4 +1,5 @@
 <h1>Mini ERPs</h1>
+![Jf93yK3](https://github.com/user-attachments/assets/bfe6ab02-dce6-4fb1-870b-935232a28cb8)
 
 <h2><a href="https://github.com/jpgercc/AtividadeRequisitos/blob/main/caso_de_uso.uml" ">Diagrama de Caso de Uso</a></h2>
 
