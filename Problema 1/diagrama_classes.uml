@@ -1,0 +1,26 @@
+@startuml
+
+class main {
+    + main()
+}
+
+class GUI {
+    + __init__(master: tk.Tk, timerer: Timerer)
+    + iniciar_treino()
+    + atualizar_tempo()
+    + registrar_tempo()
+}
+
+class Timerer {
+    + __init__()
+    + iniciar()
+    + registrar_tempo() : float
+    + finalizar() : list<float>
+    + calcular_estatisticas() : tuple<float, float, float>
+}
+
+main --> GUI : "Cria instância"
+main --> Timerer : "Cria instância"
+GUI *-- Timerer : "Composição\n(Timerer é usado internamente)"
+
+@enduml
