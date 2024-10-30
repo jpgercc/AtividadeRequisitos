@@ -6,7 +6,7 @@ Instale tkinter:
 
 </p>
 
-![simpsons-apu](https://github.com/user-attachments/assets/a02e0ae7-8e99-4024-b13d-3289ca8022cb)
+![giphy](https://github.com/user-attachments/assets/b95d2814-c4b7-4e3a-b381-08b92f5d81a8)
 
 <h2>Problema 1:</h2>
 
