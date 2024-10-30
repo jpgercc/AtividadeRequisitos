@@ -6,8 +6,7 @@ Instale tkinter:
 
 </p>
 
-![Jf93yK3](https://github.com/user-attachments/assets/bfe6ab02-dce6-4fb1-870b-935232a28cb8)
-
+![robot-bender-5](https://github.com/user-attachments/assets/f5a184e7-eeef-4581-ac85-4a208fa2c178)
 
 <h2>Problema 1:</h2>
 
