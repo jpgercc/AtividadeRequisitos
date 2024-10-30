@@ -1,5 +1,12 @@
 <h1>Mini ERPs</h1>
 
+<p>
+Instale todas as bibliotecas:
+  
+`pip install -r requirements.txt`
+
+</p>
+
 <h2>Problema 2:</h2>
 
 <p>
@@ -10,9 +17,3 @@
 
 ![image](https://github.com/user-attachments/assets/b3190619-7ed1-4ed3-afaa-cd0ead096598)
 
-<p>
-Instale todas as bibliotecas:
-  
-`pip install -r requirements.txt`
-
-</p>
