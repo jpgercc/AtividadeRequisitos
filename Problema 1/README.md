@@ -1,3 +1,11 @@
+
+<p>
+Instale tkinter:
+  
+`pip install tk`
+
+</p>
+
 ![Jf93yK3](https://github.com/user-attachments/assets/bfe6ab02-dce6-4fb1-870b-935232a28cb8)
 
 
@@ -13,9 +21,3 @@
 ![image](https://github.com/user-attachments/assets/2627d778-c2e7-4e42-a2ff-036bcc4ce60f)
 
 
-<p>
-Instale tkinter:
-  
-`pip install tk`
-
-</p>
