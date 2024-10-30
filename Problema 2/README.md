@@ -5,6 +5,8 @@ Instale todas as bibliotecas:
   
 `pip install -r requirements.txt`
 
+![simpsons-apu](https://github.com/user-attachments/assets/a02e0ae7-8e99-4024-b13d-3289ca8022cb)
+
 </p>
 
 <h2>Problema 2:</h2>
