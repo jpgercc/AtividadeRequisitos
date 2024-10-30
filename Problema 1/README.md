@@ -6,7 +6,8 @@ Instale tkinter:
 
 </p>
 
-![giphy](https://github.com/user-attachments/assets/b95d2814-c4b7-4e3a-b381-08b92f5d81a8)
+![200w](https://github.com/user-attachments/assets/fe617deb-d030-49e5-b892-722abd7437e8)
+
 
 <h2>Problema 1:</h2>
 
