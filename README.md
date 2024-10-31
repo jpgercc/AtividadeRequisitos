@@ -3,7 +3,7 @@
 
 <div align="center">
     <img src="https://github.com/user-attachments/assets/f5a184e7-eeef-4581-ac85-4a208fa2c178" alt="robot-bender-5">
-</div>
+
 
 <br>
 
@@ -16,3 +16,5 @@
 <h2><a href="https://github.com/jpgercc/AtividadeRequisitos/tree/main/Problema%201">📂 Problema 1</a></h2>
 
 <h2><a href="https://github.com/jpgercc/AtividadeRequisitos/tree/main/Problema%202">📂 Problema 2</a></h2>
+
+</div>
