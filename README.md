@@ -2,7 +2,9 @@
 <br>
 
 <div align="center">
+    <img src="https://media.tenor.com/729u0YBE2NcAAAAj/minecraft-minecraft-memes.gif" ">
     <img src="https://github.com/user-attachments/assets/f5a184e7-eeef-4581-ac85-4a208fa2c178" alt="robot-bender-5">
+    <img src="https://media.tenor.com/729u0YBE2NcAAAAj/minecraft-minecraft-memes.gif" ">
 
 
 <br>
