@@ -4,7 +4,6 @@ import time  # Importação correta para o uso do time.time()
 class GUI:
     
     def __init__(self, master, timerer):
-        # Referencia a janela principal, convenção do tkinter
         self.master = master 
         self.master.title("Registro de Tempos do Nadador")
         self.timerer = timerer

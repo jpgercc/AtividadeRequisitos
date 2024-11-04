@@ -15,9 +15,10 @@ class Timerer:
         if self.contador_ativo:
             tempo_atual = time.time() - self.tempo_inicial # Calcula o tempo atual
             self.tempos.append(tempo_atual) # Adiciona o tempo atual ao array 
-            self.tempo_inicial = time.time()  # Reinicia para a próxima volta
+            self.tempo_inicial = time.time()  # Reinicia para a proxima volta
             return tempo_atual
-        return None
+        
+        return None # Se o if nao for satisfeito, a funçao ira retornar None
 
     def finalizar(self):
         self.contador_ativo = False
@@ -25,8 +26,8 @@ class Timerer:
 
     def calcular_estatisticas(self):
         if self.tempos:
-            media = sum(self.tempos) / len(self.tempos) # Calcula a média
+            media = sum(self.tempos) / len(self.tempos) # Calcula a media
             maior_tempo = max(self.tempos) # Calcula o maior tempo
             menor_tempo = min(self.tempos) # Calcula o menor tempo
             return media, maior_tempo, menor_tempo
-        return None, None, None # Caso não haja tempos registrados, não é possível calcular as estatísticas, então retorna None para cada uma delas
+        return None, None, None # Se o if nao for satisfeito retorna None para cada uma 
