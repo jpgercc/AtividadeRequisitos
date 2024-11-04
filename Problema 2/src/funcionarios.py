@@ -17,7 +17,7 @@ class EmployeeApp(ctk.CTk):
         #self.iconbitmap('finalizado.ico')
 
         # Connect to the database
-        self.conn = sqlite3.connect("./database/employees.db")
+        self.conn = sqlite3.connect("./AtividadeRequisitos-main/Problema 2/database/employees.db")
         self.cursor = self.conn.cursor()
         self.create_table()
 

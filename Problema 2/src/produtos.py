@@ -16,7 +16,7 @@ class InventoryApp(ctk.CTk):
         #self.iconbitmap('finalizado.ico')
 
         # Connect to the database
-        self.conn = sqlite3.connect("./database/products.db")
+        self.conn = sqlite3.connect("./AtividadeRequisitos-main/Problema 2/database/products.db")
         self.cursor = self.conn.cursor()
         self.create_tables()
 

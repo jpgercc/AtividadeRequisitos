@@ -33,7 +33,7 @@ class CashierApp(ctk.CTk):
 
     def init_db(self):
         # Connect to the database (or create it if it doesn't exist)
-        self.conn = sqlite3.connect("./database/sales.db")
+        self.conn = sqlite3.connect("./AtividadeRequisitos-main/Problema 2/database/sales.db")
         self.cursor = self.conn.cursor()
 
         # CONFERIR, BOTAR ESSE CÓDIGO EM VENDAS.PY
@@ -52,7 +52,7 @@ class CashierApp(ctk.CTk):
         self.conn.commit()
 
         # Connect to the products database
-        self.products_conn = sqlite3.connect("./database/products.db")
+        self.products_conn = sqlite3.connect("./AtividadeRequisitos-main/Problema 2/database/products.db")
         self.products_cursor = self.products_conn.cursor()
 
     def create_widgets(self):
@@ -169,7 +169,7 @@ class CashierApp(ctk.CTk):
             messagebox.showerror("Invalid input", "Please enter valid price and quantity.")
 
     def add_purchase_date_column():
-        conn = sqlite3.connect("./database/sales.db")
+        conn = sqlite3.connect("./AtividadeRequisitos-main/Problema 2/database/sales.db")
         cursor = conn.cursor()
 
         # Verifique se a coluna purchase_date já existe

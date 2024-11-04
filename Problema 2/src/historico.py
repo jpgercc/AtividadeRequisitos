@@ -25,7 +25,7 @@ class historico(ctk.CTk):
         self.search_button.pack(pady=5)
 
         # Connect to the database
-        self.conn = sqlite3.connect("./database/sales.db")
+        self.conn = sqlite3.connect("./AtividadeRequisitos-main/Problema 2/database/sales.db")
         self.cursor = self.conn.cursor()
 
         # Display all sales initially

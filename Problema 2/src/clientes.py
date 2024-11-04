@@ -15,7 +15,7 @@ class CustomerApp(ctk.CTk):
         self.iconbitmap('finalizado.ico')
 
         # Connect to the database
-        self.conn = sqlite3.connect("./database/customers.db")
+        self.conn = sqlite3.connect("./AtividadeRequisitos-main/Problema 2/database/customers.db")
         self.cursor = self.conn.cursor()
         self.create_tables()
 

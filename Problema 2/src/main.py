@@ -30,19 +30,19 @@ def on_button_click(button_number):
 # Função para abrir PAGINAS
 
 def open_funcionarios_page():
-    subprocess.Popen([sys.executable, "./src/funcionarios.py"])
+    subprocess.Popen([sys.executable, "./AtividadeRequisitos-main/Problema 2/src/funcionarios.py"])
 
 def open_clientes_page():
-    subprocess.Popen([sys.executable, "./src/clientes.py"])
+    subprocess.Popen([sys.executable, "./AtividadeRequisitos-main/Problema 2/src/clientes.py"])
 
 def open_vendas_page():
-    subprocess.Popen([sys.executable, "./src/venda.py"])
+    subprocess.Popen([sys.executable, "./AtividadeRequisitos-main/Problema 2/src/venda.py"])
 
 def open_historico_page():
-    subprocess.Popen([sys.executable, "./src/historico.py"])
+    subprocess.Popen([sys.executable, "./AtividadeRequisitos-main/Problema 2/src/historico.py"])
 
 def open_produtos_page():
-    subprocess.Popen([sys.executable, "./src/produtos.py"])
+    subprocess.Popen([sys.executable, "./AtividadeRequisitos-main/Problema 2/src/produtos.py"])
 
 # Criação dos botões
 button1 = ctk.CTkButton(top_frame, text="Realizar Venda", command=open_vendas_page)
@@ -64,7 +64,7 @@ button5.pack(side="left", padx=30)
 #button1.pack(side="right", padx=30)
 
 # Carregar a imagem usando PIL
-image_path = "./accets/final.png"  # Altere para o caminho da sua imagem
+image_path = "./AtividadeRequisitos-main/Problema 2/accets/final.png"  # Altere para o caminho da sua imagem
 image = Image.open(image_path)
 image = image.resize((900, 900), Image.LANCZOS)  # Redimensione a imagem se necessário
 # Converter a imagem para CTkImage
