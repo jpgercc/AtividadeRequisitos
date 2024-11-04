@@ -12,7 +12,7 @@ class CustomerApp(ctk.CTk):
 
         self.title("Biss Manager - Clientes")
         self.geometry("1000x600")
-        self.iconbitmap('finalizado.ico')
+        #self.iconbitmap('finalizado.ico')
 
         # Connect to the database
         self.conn = sqlite3.connect("./AtividadeRequisitos-main/Problema 2/database/customers.db")
